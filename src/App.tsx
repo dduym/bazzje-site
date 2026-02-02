@@ -1,7 +1,6 @@
-import React from 'react';
-import './styles/index.css'; // let op dat dit pad correct is
+import './styles/index.css';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div className='app-container'>
       <div className='center-card'>Under construction</div>
