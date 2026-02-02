@@ -5,12 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "build:gh": "vite build --mode gh",
     "clean": "rm -rf dist",
     "dev": "vite",
-    "deploy": "gh-pages -d dist",
+    "deploy": "node deploy.js",
     "lint": "eslint .",
-    "predeploy": "npm run build:gh",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit"
   },
